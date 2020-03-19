@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/mcmilk/7-Zip-zstd",
+    "description": "A multi-format file archiver with high compression ratios",
+    "license": {
+        "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "version": "19.00",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/19.00-v1.4.4-R1/7z19.00-zstd-x64.exe",
+            "hash": "3DA54CF39677EE80015C3E9A678BD6DC0A5C6F9CDCB4BE5B12732AC61D58F00C"
+        },
+        "32bit": {
+            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/19.00-v1.4.4-R1/7z19.00-zstd-x32.exe",
+            "hash": "F2E12BF0F4A18FC52D82E2EA11602140224C94A3B314CF2E3FE4D3EE47E42F74"
+        }
+    },
+    "extract_dir": "Files/7-Zip",
+    "bin": "7z.exe",
+    "shortcuts": [
+        [
+            "7zFM.exe",
+            "7-Zip"
+        ]
+    ]
+}
